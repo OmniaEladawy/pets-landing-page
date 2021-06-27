@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl{
+    padding: 0px;
+}
+
+.row{
+    width: 100%;
+    margin: 0px;
+}
+
+button {
+    background-color: #2ea2d0;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px 30px;
+    font-size: 15px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    border: 1px solid #2ea2d0;
+    color: #2ea2d0;
+    background-color: #fff;
+}
+
+/* header */
+header{
+    background: linear-gradient(315deg , #73acc7 56% , #c1e5f6 83%);
+    width: 100%;
+    position: relative;
+}
+
+.header{
+    margin-top: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.col1 , .col2 , .col3 {
+    padding: 0px;
+}
+
+.header .col2 p {
+    width: 90%;
+    text-align: center;
+}
+
+.header .col2 #dif {
+    color: #0072a8;
+}
+
+.header .col1 img {
+    width: 100%;
+    position: absolute;
+    margin-top : 30%;
+}
+
+.header .col2 img {
+    width: 100%;
+    position: relative;
+
+}
+
+.header .col2 #text {
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    width: 40%;
+    font-size: 44px;
+    text-align: center;
+    transform: rotate(347deg);
+    color: #0072a8;
+    font-weight: bolder;
+}
+
+.header .col3 img {
+    width: 100%;
+}
+
+/* navbar */
+nav {
+    padding: 20px 0 !important;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+nav ul li a:hover {
+    color: #0072a8;
+}
+
+/* our story section */
+.story {
+    margin-top: 150px;
+}
+
+.story p {
+    font-size: 20px;
+    color: #717171;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.story #read {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    color: #2ea2d0;
+    font-weight: 600;
+}
+
+.story #head {
+    text-align: center;
+    margin-bottom: -130px;
+    font-weight: 600;
+}
+
+.story #head span {
+    color: #2ea2d0;
+    font-size: 50px;
+    margin-left: 80px;
+}
+/* ingredient section */
+.ingredient {
+    background-image: url('../images/chickenBackground.png');
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    padding: 100px 0;
+    margin-top: -250px;
+}
+
+.ingredient h2 {
+    line-height: 1.5em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+.ingredient h2 #sechead {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.ingredient p {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 2em;
+}
+
+/* start to life section */
+.startLife {
+    margin-top: 150px;
+}
+
+.startLife .col1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.startLife .col1 h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.startLife .col1 p {
+    color: #000;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 30px 0;
+
+}
+
+/* about dog section */
+.aboutDog{
+    background-color: #f0f0f0;
+    margin-top: 150px;
+    padding: 100px 0;
+    height: 365px;
+    position: relative;
+}
+
+.aboutDog img {
+    position: absolute;
+    top: -192px;
+}
+
+.aboutDog h4 {
+    line-height: 1.5em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input[type="search"] {
+    border: none;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #000;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: #b4b4b4;
+    font-weight: bold;
+}
+
+.aboutDog i {
+    margin-left: -15px;
+    color: #b4b4b4;
+}
+
+.aboutDog p {
+    color: #000;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 15px;
+}
+
+.aboutDog button:hover {
+    background-color: #f0f0f0; 
+}
+
+/* food section */
+.food {
+    margin-top: 150px;
+    margin-bottom: 150px;
+} 
+
+.food .col1 {
+    margin-left: 70px;
+} 
+.food .col2 {
+    margin-top: 30px;
+    margin-left: -190px;
+}
+
+.food .col2 h3 {
+    line-height: 1.5em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.food .col2 p {
+    line-height: 1.5em;
+    font-size: 15px; 
+    font-weight: bold;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-image: url('../images/footer.png');
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+.footer img {
+    margin-bottom: 20px;
+}
+
+.footer a  , #copy {
+    color: #000;
+    font-weight: bold;
+}
+
+.footer #copy {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.footer .social {
+    margin: 20px 0;   
+}
+
+.footer .social .fa-circle{
+    color: #2ea2d0;
+}
+
+
+
