@@ -35,6 +35,10 @@ button:hover {
     background-color: #fff;
 }
 
+p {
+    text-transform: none;
+}
+
 /* header */
 header{
     background: linear-gradient(315deg , #73acc7 56% , #c1e5f6 83%);
@@ -112,10 +116,11 @@ nav ul li a:hover {
 }
 
 .story p {
-    font-size: 20px;
+    font-size: 18px;
     color: #717171;
     font-weight: bold;
     margin-top: 30px;
+    margin-left: 55px;
 }
 
 .story #read {
@@ -124,18 +129,22 @@ nav ul li a:hover {
     font-size: 18px;
     color: #2ea2d0;
     font-weight: 600;
+    margin-left: 55px;
 }
 
 .story #head {
     text-align: center;
-    margin-bottom: -130px;
-    font-weight: 600;
+    margin-bottom: -195px;
+    font-weight: bold;
 }
 
 .story #head span {
     color: #2ea2d0;
-    font-size: 50px;
-    margin-left: 80px;
+    font-size: 70px;
+    text-transform: none;
+    margin-left: 105px;
+    margin-top: -15px;
+    display: inline-block;
 }
 /* ingredient section */
 .ingredient {
@@ -143,8 +152,8 @@ nav ul li a:hover {
     text-align: center;
     color: #fff;
     background-size: cover;
-    padding: 100px 0;
-    margin-top: -250px;
+    padding: 60px 0;
+    margin-top: -205px;
 }
 
 .ingredient h2 {
@@ -220,6 +229,10 @@ input[type="search"] {
     margin-bottom: 20px;
 }
 
+input[type="search"]:focus {
+    outline: none;
+}
+
 ::placeholder {
     color: #b4b4b4;
     font-weight: bold;
@@ -275,10 +288,24 @@ input[type="search"] {
     background-image: url('../images/footer.png');
     padding-top: 30px;
     padding-right: 50px;
+    background-size: cover;
+    margin-bottom: 100px;
 }
 
 .footer img {
     margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.footer .row1 {
+    margin-bottom: 10px;
+}
+.footer .menu a:hover {
+    color: #0072a8;
+}
+
+.row1 , .row2 , .row3 {
+    margin-left: 50px;
 }
 
 .footer a  , #copy {
@@ -289,15 +316,23 @@ input[type="search"] {
 .footer #copy {
     margin: 20px 0;
     font-size: 15px;
+    text-transform: none;
 }
 
 .footer .social {
-    margin: 20px 0;   
+    margin: 12px 0;   
 }
 
 .footer .social .fa-circle{
     color: #2ea2d0;
 }
+
+.footer a {
+    text-decoration: none;
+}
+
+
+
 
 
 
