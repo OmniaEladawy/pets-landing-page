@@ -81,8 +81,8 @@ header{
 .header .col2 #text {
     position: absolute;
     top: 38%;
-    left: 25%;
-    width: 40%;
+    left: 24%;
+    width: 45%;
     font-size: 44px;
     text-align: center;
     transform: rotate(347deg);
@@ -100,14 +100,18 @@ nav {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fff !important;
     font-weight: bold;
     font-size: 17px;
     margin-left: 30px;
 }
 
 nav ul li a:hover {
-    color: #0072a8;
+    color: #0072a8 !important;
+}
+
+nav .navbar-toggler:hover {
+    background-color: #2ea2d0;
 }
 
 /* our story section */
@@ -284,12 +288,13 @@ input[type="search"]:focus {
     margin-bottom: 20px;
 }
 
+/* footer */
 .footer {
     background-image: url('../images/footer.png');
     padding-top: 30px;
     padding-right: 50px;
     background-size: cover;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .footer img {
@@ -329,6 +334,797 @@ input[type="search"]:focus {
 
 .footer a {
     text-decoration: none;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    button {
+        background-color: #2ea2d0;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .header{
+        font-size: 35px;
+    }
+    
+    .header .col2 p {
+        width: 70%;
+        margin: auto;
+    }
+    
+    .header .col1 img {
+        display: none;
+    }
+    
+    .header .col2 img {
+        width: 70%;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    
+    .header .col2 #text {
+        position: absolute;
+        top: 49%;
+        left: 26%;
+        font-size: 35px;
+    }
+    
+    .header .col3 img {
+        width: 70%;
+        margin-left: auto;
+        display: block;
+    }
+    
+    /* navbar */
+    nav {
+        padding: 20px 15px !important;
+    }
+
+    nav .navbar-brand img {
+        width: 70%;
+    }
+    
+    /* our story section */
+    .story {
+        margin-top: 100px;
+    }
+    
+    .story img {
+        width: 70%;
+    }
+
+    .story p {
+        margin-top: -20px;
+        padding: 0 50px;
+        margin-left: 0px;
+    }
+    
+    .story #read {
+        padding: 0 50px;
+        margin-left: 0px;
+    }
+    
+    .story #head {
+        margin-bottom: -190px;
+    }
+    
+    .story #head span {
+        margin-left: 105px;
+        margin-top: -15px;
+        display: inline-block;
+    }
+
+    .story .col3 img {
+        display: block;
+        margin-top: 60px;
+        margin-left: auto;
+    }
+
+    /* ingredient section */
+    .ingredient {
+        margin-top: 60px;
+        background-position: center;
+    }
+    
+    .ingredient h2 {
+        font-size: 40px;
+    }
+    
+    .ingredient h2 #sechead {
+        font-size: 50px;
+    }
+    
+    .ingredient p {
+        width: 70%;
+    }
+    
+    /* start to life section */
+    .startLife {
+        margin-top: 100px;
+    }
+    
+    .startLife .col1 {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    .startLife .col1 h3 {
+        font-size: 45px;
+    }
+    
+    .startLife .col1 p {
+        color: #000;
+        line-height: 1.5em;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+
+    .startLife img {
+        margin-top: 80px;
+        display: block;
+        margin-left: auto;
+        width: 70%;
+    }
+    
+    /* about dog section */
+    .aboutDog{
+        margin-top: 100px;
+        padding: 100px 50px;
+        height: auto;
+    }
+    
+    .aboutDog img {
+        display: none;
+    }
+    
+    .aboutDog h4 {
+        margin-bottom: 40px;
+    }
+    
+    input[type="search"] {
+        margin-bottom: 40px;
+    }
+    
+    .aboutDog .col3 h4 {
+        margin-top: 100px;
+    }
+
+    .aboutDog p {
+        margin-bottom: 40px;
+    }
+    
+    /* food section */
+    .food {
+        margin-top: 100px;
+    } 
+    
+    .food .col1 img{
+        display: none;
+    } 
+
+    .food .col2 {
+        margin-left: 0px;
+        padding: 0 50px;
+    }
+    
+    .food .col2 h3 {
+        line-height: 1.5em;
+        font-family: 'Amatic SC', cursive;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        min-width: 100vw;
+    }
+    
+    .food .col2 p {
+        line-height: 1.5em;
+        font-size: 15px; 
+        font-weight: bold;
+        text-transform: none;
+        margin-bottom: 40px;
+    }
+    
+    /* footer */
+    .footer {
+        margin-bottom: 0;
+    }
+    .footer img {
+        display: none;
+    }
+
+    .footer a {
+        font-size: 13px;
+    }
+
+    .footer .menu a {
+        margin-left: 50px;
+    }
+
+    .footer #copy {
+        margin-left: 20px;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .footer .social {
+        margin-left: 230px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    button {
+        background-color: #2ea2d0;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .header{
+        font-size: 35px;
+    }
+    
+    .header .col2 p {
+        width: 70%;
+        margin: auto;
+    }
+    
+    .header .col1 img {
+        display: none;
+    }
+    
+    .header .col2 img {
+        width: 70%;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    
+    .header .col2 #text {
+        position: absolute;
+        top: 49%;
+        left: 26%;
+        font-size: 35px;
+    }
+    
+    .header .col3 img {
+        width: 70%;
+        margin-left: auto;
+        display: block;
+    }
+    
+    /* navbar */
+    nav {
+        padding: 20px 15px !important;
+    }
+
+    nav .navbar-brand img {
+        width: 70%;
+    }
+    
+    /* our story section */
+    .story {
+        margin-top: 100px;
+    }
+    
+    .story img {
+        width: 70%;
+    }
+
+    .story p {
+        margin-top: -20px;
+        padding: 0 50px;
+        margin-left: 0px;
+    }
+    
+    .story #read {
+        padding: 0 50px;
+        margin-left: 0px;
+    }
+    
+    .story #head {
+        margin-bottom: -190px;
+    }
+    
+    .story #head span {
+        margin-left: 105px;
+        margin-top: -15px;
+        display: inline-block;
+    }
+
+    .story .col3 img {
+        display: block;
+        margin-top: 60px;
+        margin-left: auto;
+    }
+
+    /* ingredient section */
+    .ingredient {
+        margin-top: 60px;
+        background-position: center;
+    }
+    
+    .ingredient h2 {
+        font-size: 40px;
+    }
+    
+    .ingredient h2 #sechead {
+        font-size: 50px;
+    }
+    
+    .ingredient p {
+        width: 70%;
+    }
+    
+    /* start to life section */
+    .startLife {
+        margin-top: 100px;
+    }
+    
+    .startLife .col1 {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    .startLife .col1 h3 {
+        font-size: 45px;
+    }
+    
+    .startLife .col1 p {
+        color: #000;
+        line-height: 1.5em;
+        font-weight: bold;
+        font-size: 15px;
+        margin: 30px 0;
+    }
+
+    .startLife img {
+        margin-top: 80px;
+        display: block;
+        margin-left: auto;
+        width: 70%;
+    }
+    
+    /* about dog section */
+    .aboutDog{
+        margin-top: 100px;
+        padding: 100px 50px;
+        height: auto;
+    }
+    
+    .aboutDog img {
+        display: none;
+    }
+    
+    .aboutDog h4 {
+        margin-bottom: 40px;
+    }
+    
+    input[type="search"] {
+        margin-bottom: 40px;
+    }
+    
+    .aboutDog .col3 h4 {
+        margin-top: 100px;
+    }
+
+    .aboutDog p {
+        margin-bottom: 40px;
+    }
+    
+    /* food section */
+    .food {
+        margin-top: 100px;
+    } 
+    
+    .food .col1 img{
+        display: none;
+    } 
+
+    .food .col2 {
+        margin-left: 0px;
+        padding: 0 50px;
+    }
+    
+    .food .col2 h3 {
+        line-height: 1.5em;
+        font-family: 'Amatic SC', cursive;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        min-width: 100vw;
+    }
+    
+    .food .col2 p {
+        line-height: 1.5em;
+        font-size: 15px; 
+        font-weight: bold;
+        text-transform: none;
+        margin-bottom: 40px;
+    }
+    
+    /* footer */
+    .footer {
+        margin-bottom: 0;
+    }
+    .footer img {
+        display: none;
+    }
+
+    .footer a {
+        font-size: 13px;
+    }
+
+    .footer .menu a {
+        margin-left: 50px;
+    }
+
+    .footer #copy {
+        margin-left: 20px;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .footer .social {
+        margin-left: 270px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    button {
+        background-color: #2ea2d0;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .header{
+        font-size: 55px;
+    }
+    
+    .header .col2 p {
+        width: 70%;
+        margin: auto;
+    }
+    
+    .header .col1 img {
+        display: none;
+    }
+    
+    .header .col2 img {
+        width: 70%;
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+    
+    .header .col2 #text {
+        position: absolute;
+        top: 49%;
+        left: 26%;
+        font-size: 55px;
+    }
+    
+    .header .col3 img {
+        width: 70%;
+        margin-left: auto;
+        display: block;
+    }
+    
+    /* navbar */
+    nav {
+        padding: 20px 15px !important;
+    }
+
+    nav .navbar-brand img {
+        width: 70%;
+    }
+    
+    /* our story section */
+    .story {
+        margin-top: 100px;
+    }
+    
+    .story img {
+        width: 70%;
+    }
+
+    .story p {
+        margin-top: -20px;
+        padding: 0 50px;
+        margin-left: 0px;
+    }
+    
+    .story #read {
+        padding: 0 50px;
+        margin-left: 0px;
+    }
+    
+    .story #head {
+        margin-bottom: -190px;
+
+    }
+    
+    .story #head span {
+        margin-left: 105px;
+        margin-top: -15px;
+        display: inline-block;
+    }
+
+    .story .col3 img {
+        display: block;
+        margin-top: 60px;
+        margin-left: auto;
+    }
+
+    /* ingredient section */
+    .ingredient {
+        margin-top: 60px;
+        background-position: center;
+    }
+    
+    .ingredient h2 {
+        font-size: 50px;
+    }
+    
+    .ingredient h2 #sechead {
+        font-size: 60px;
+    }
+    
+    .ingredient p {
+        width: 70%;
+    }
+    
+    /* start to life section */
+    .startLife {
+        margin-top: 100px;
+    }
+    
+    .startLife .col1 {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    .startLife .col1 h3 {
+        font-size: 55px;
+    }
+    
+    .startLife .col1 p {
+        color: #000;
+        line-height: 1.5em;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 30px 0;
+    }
+
+    .startLife img {
+        margin-top: 80px;
+        display: block;
+        margin-left: auto;
+        width: 70%;
+    }
+    
+    /* about dog section */
+    .aboutDog{
+        margin-top: 100px;
+        padding: 100px 50px;
+        height: auto;
+    }
+    
+    .aboutDog img {
+        display: none;
+    }
+    
+    .aboutDog h4 {
+        margin-bottom: 40px;
+        font-size: 45px;
+    }
+    
+    input[type="search"] {
+        margin-bottom: 40px;
+    }
+    
+    .aboutDog .col3 h4 {
+        margin-top: 100px;
+    }
+
+    .aboutDog p {
+        margin-bottom: 40px;
+    }
+    
+    /* food section */
+    .food {
+        margin-top: 100px;
+    } 
+    
+    .food .col1 img{
+        display: none;
+    } 
+
+    .food .col2 {
+        margin-left: 0px;
+        padding: 0 50px;
+    }
+    
+    .food .col2 h3 {
+        line-height: 1.5em;
+        font-family: 'Amatic SC', cursive;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        min-width: 100vw;
+    }
+    
+    .food .col2 p {
+        line-height: 1.5em;
+        font-size: 18px; 
+        font-weight: bold;
+        text-transform: none;
+        margin-bottom: 40px;
+    }
+    
+    /* footer */
+    .footer {
+        margin-bottom: 0;
+    }
+    .footer img {
+        display: none;
+    }
+
+    .footer a {
+        font-size: 15px;
+    }
+
+    .footer .menu a {
+        margin-left: 50px;
+    }
+
+    .footer #copy {
+        margin-left: 20px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .footer .social {
+        margin-left: 350px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* header */
+    .header .col2 #text {
+        position: absolute;
+        top: 44%;
+        left: 20%;
+        width: 50%;
+        font-size: 40px;
+        text-align: center;
+        transform: rotate(347deg);
+        color: #0072a8;
+        font-weight: bolder;
+    }
+
+    /* navbar */
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    nav .navbar-brand img{
+        width: 70%;
+    }
+
+    /* our story section */
+    .story .col1 img , .story .col3 img{
+        width: 90%;
+    }
+
+    .story p {
+        font-size: 15px;
+    }
+
+    .story #read {
+        font-size: 15px;
+    }
+
+    .story #head {
+        text-align: center;
+        margin-bottom: -129px;
+        font-weight: bold;
+    }
+
+    .story #head span {
+        color: #2ea2d0;
+        font-size: 70px;
+        text-transform: none;
+        margin-left: 105px;
+        margin-top: -15px;
+        display: inline-block;
+    }
+
+    /* ingredient section */
+    .ingredient {
+        margin-top: -143px;
+    }
+
+    .ingredient h2 {
+        font-size: 40px;
+    }
+
+    .ingredient h2 #sechead {
+        font-size: 50px;
+    }
+
+    /* start to life section */
+    .startLife .col1 h3 {
+        font-size: 50px;
+    }
+
+    /* about dog section */
+    .aboutDog{
+        padding: 100px 50px;
+    }
+
+    .aboutDog h4 {
+        font-size: 30px;
+    }
+
+    /* food section */
+    .food .col2 h3 {
+        font-size: 35px;
+    }
+
+    /* footer */
+    .footer {
+        margin-bottom: 30px;
+    }
+    .footer img {
+        margin-bottom: 20px;
+        margin-left: 30px;
+        width: 70%;
+    }
+
+    .footer .row1 {
+        margin-bottom: 10px;
+    }
+    
+    .footer .menu a:hover {
+        color: #0072a8;
+    }
+
+    .row1 , .row2 , .row3 {
+        margin-left: 60px;
+    }
+
+    .footer a  , .footer #copy {
+        color: #000;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .footer #copy {
+        margin: 20px 0;
+        text-transform: none;
+    }
+
+    .footer .social {
+        margin: 23px 0;   
+    }
 }
 
 
